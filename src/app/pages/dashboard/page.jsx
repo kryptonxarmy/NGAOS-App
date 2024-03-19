@@ -115,7 +115,7 @@ function Page() {
         <div className="bg-white flex flex-col text-black rounded-t-[39px] p-6 relative z-10">
           <h1 className="font-bold text-2xl mb-4">All Features</h1>
           <div className="flex justify-between text-center items-center font-bold mb-6">
-            <div className="bg-red-400">
+            <div className="" onClick={() => (window.location.href = "/pages/quran")}>
               <FontAwesomeIcon icon={faHouse} className=" size-10 mx-auto text-white bg-green-700 rounded-xl p-3" />
               <h1 className="font-bold">Quran</h1>
             </div>
